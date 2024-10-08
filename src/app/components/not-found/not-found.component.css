@@ -1,0 +1,49 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Text color */
+    display: flex; /* Centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    text-align: center; /* Center text */
+    background-color: #fff; /* White background for container */
+    padding: 40px 20px; /* Padding around content */
+    border-radius: 8px; /* Rounded corners */
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  Subtle shadow */
+}
+
+h1 {
+    font-size: 80px; /* Large font size for 404 */
+    margin: 0; /* Remove default margin */
+    color: #d9534f; /* Red color for the error code */
+}
+
+h2 {
+    font-size: 24px; /* Medium font size for the heading */
+    margin: 10px 0; /* Margin above and below */
+}
+
+p {
+    font-size: 16px; /* Standard font size for the message */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.home-button {
+    display: inline-block; /* Block-level button */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #5cb85c; /* Green background */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.home-button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}

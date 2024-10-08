@@ -1,0 +1,37 @@
+/* Container Styles */
+.home-container {
+    max-width: 600px; /* Maximum width of the content */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding around the content */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+/* Headings Styles */
+h1 {
+    font-size: 36px; /* Font size for the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+p {
+    font-size: 18px; /* Standard font size for the paragraph */
+    color: #555; /* Slightly lighter color */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button Styles */
+.btn-primary {
+    display: inline-block; /* Block-level button */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin: 0 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

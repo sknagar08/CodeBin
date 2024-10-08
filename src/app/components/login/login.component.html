@@ -1,0 +1,13 @@
+<div class="container">
+    <form [formGroup]="loginForm">
+        <h4>Please login</h4>
+        <input type="email" placeholder="Email" [formControl]="email">
+        <p class="text-danger" [hidden]="email.untouched || email.valid">Invalid email</p>
+        
+        <input type="password" placeholder="Password" [formControl]="password">
+        <p class="text-danger" [hidden]="password.untouched || password.valid">Password required and length should be greater than 6</p>
+        <button class="btn-success" [disabled]="loginForm.invalid" (click)="login()">Login</button>
+        <button class="btn-danger" (click)="reset()">Reset</button>
+    </form>
+    <p>Don't have an account? <a routerLink="/signup">Signup</a></p>
+</div>

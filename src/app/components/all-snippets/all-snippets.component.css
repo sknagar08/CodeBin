@@ -1,0 +1,62 @@
+/* Container Styles */
+.snippet-container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding around the content */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* List Styles */
+.snippet-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* List Item Styles */
+.snippet-list li {
+    padding: 10px 15px; /* Padding for list items */
+    border-bottom: 1px solid #e0e0e0; /* Bottom border for separation */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Last List Item (No Snippets) */
+.snippet-list li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+/* Link Styles */
+.snippet-link {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+    font-weight: 500; /* Medium font weight */
+}
+
+.snippet-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button Link Styles */
+.btn-link {
+    color: #007bff; /* Link color */
+    font-weight: 500; /* Medium font weight */
+    text-decoration: none; /* Remove underline */
+}
+
+.btn-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* No Snippets Message Styles */
+.snippet-list li {
+    color: #555; /* Slightly lighter color for the no snippets message */
+    text-align: center; /* Center the text */
+}

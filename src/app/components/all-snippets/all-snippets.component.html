@@ -1,0 +1,12 @@
+<div class="snippet-container">
+    <h2 class="title">Your code snippets</h2>
+    <ul class="snippet-list">
+        @if (items.length == 0) {
+        <li>No snippets added. <a class="btn-link" routerLink="/create">Add New Snippet</a></li>
+        }@else {
+        @for (item of items; track item.id) {
+        <li><a class="snippet-link" [routerLink]="['/snippet', item.id]">{{item.title}}</a></li>
+        }
+        }
+    </ul>
+</div>
